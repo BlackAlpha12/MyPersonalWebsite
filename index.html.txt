@@ -1,0 +1,83 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="descriptioin" content="This is my Personal Website">
+  <title>This is my Personal Website</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src=bootstrap.js"></script>
+</head>
+<header>
+
+<div class="nav-menu">
+  <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="contact-us.html">Contact</a></li>
+  <li><a href="about-us.html">About</a></li>
+</ul>
+  <div id="header">My Personal Website
+<p style="color:red;" align="center">Calvin Brown</p>
+  </div>
+
+</header>
+<body>
+ <main>
+<div class="flex-container">
+  <div class="flex-box"> <h3 class="bordered-heading"><b>Mission Statement:</b></h3>
+  <p>This is not just a podcast, it's a movement. We're here to put the spotlight on Young Black Excellence and bring a realness to the game like you've never seen before.
+We are  about to take you on a journey while also dropping Gems,' knowledge, stirring up conversations, and bringing some serious energy.
+In our Ep we will be introducing ourselves and our personality. Show some love - smash that like button and subscribe to our channel for more. Your support keeps this movement alive. We'll be dropping new episodes every Week, so stay locked in.
+So, are you ready to get on this ride with us? Let's elevate, educate, and celebrate together..</p><br>
+</div>
+
+ <div class="flex-box"><img class="AImage" src="unnamed.png"> 
+ <a href="https://www.youtube.com/channel/UCCwZdkxQjBBRfQpuqx46dBQ">Subscribe!</a>
+ </div>
+<div class="flex-box"><h4 class="bordered-heading"><b>A little about myself:</b></h4>
+<p>My name is Calvin Brown. I was born on April 12th in Georgetown Guyana and came to America in 2007. I graduated from Rutgers Newark in 2019 and have been working at Amazon ever since.My favorite animals are lions and wolves and my favorite color is red.</p>
+</div>
+<article>
+
+<div class="flex-box"><h2 class="bordered-heading">Web Development Journey</h2>
+
+<p>My web development journey has just began with me taking this class. I have no experience whatsoever with HTML. So far I am able to keep up with most of the stuff I am learning but it takes me a bit of extra time to learn.</p>
+</div>
+</article>
+
+</main>
+
+<footer style= height="100%" width="100%">
+
+<h2 style="color: red" align="center">Contact Me</h2>
+
+<form action="/example_action.html" align="center">
+
+<label for="fname" style="color: red">First Name:</label><br>
+
+<input type="text" id="fname" name="fname"><br><br>
+
+<label for="lname" style="color: red">Last Name:</label><br>
+
+<input type="text" id="lname" name="lname"><br><br>
+
+<label for="Number" style="color: red">Phone Number</label><br>
+
+<input type="tel" id="Number" name="Number"  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+
+<label for="email" style="color: red">Email</label><br>
+
+<input type="email" id="email" name="email"><br>
+
+<input style="background-color: red" type="submit" value="Submit">
+
+</form>
+
+<a href="https://youtu.be/x2ZSRWjEB84"> <img src="unnamed.png" class="Logo" width="30px" height="30px"> </a>
+
+<a href="https://www.linkedin.com/in/calvin-brown-262a63225"><img src="OIP.jpg" width="30px" height="30px"></a>
+
+</footer>
+ 
+  
+</body>
+</html>
